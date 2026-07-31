@@ -1,5 +1,5 @@
 # Copilot Skills Repository
-企业小红书B2B内容生产Agent仓库
+B2B企业小红书内容生产
 
 ## 项目简介
 本仓库托管 GitHub Copilot Custom Skill：marketup-xhs-skill

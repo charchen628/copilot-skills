@@ -37,3 +37,46 @@ B2B企业小红书内容生产
 
 ## 备注
 所有配置文件支持自定义修改：可在 `profiles/default` 录入企业产品、受众、合规要求，实现专属企业定制化输出。
+
+-------------------------------------------------------------------------------------------------------
+# Copilot Skills Repository
+B2B Enterprise Xiaohongshu Content Intelligent Agent
+
+## Introduction
+This repository hosts the GitHub Copilot Custom Skill: **marketup-xhs-skill**.
+It is a full-cycle AI content assistant built for **large & medium-sized B2B enterprises**.
+
+Different from consumer-oriented marketing scripts, this skill focuses on B2B buyer decision journeys, helping enterprises build professional credibility and customer acquisition systems on Xiaohongshu.
+
+## Capabilities
+✅ Xiaohongshu account positioning & brand persona design for enterprises
+✅ Industry topic discovery and keyword strategy for B2B content
+✅ Professional article generation: industry insights, case studies, solutions & pitfalls sharing
+✅ Copywriting for posts, headlines, cover text and comment management
+✅ Content compliance inspection & risk review
+✅ Material library management and case reuse
+✅ Standardized templates to support mass content creation for internal teams
+
+## Directory Structure (Copilot Standard Path)
+.github/skills/marketup-xhs-skill/
+├─ SKILL.md # Main skill definition
+├─ adapters/ # Format adapters & output converters
+├─ checklists/ # Content audit & compliance checklists
+├─ profiles/ # Brand config, audience profiles & product templates
+├─ references/ # Reference documents & benchmark content samples
+├─ rules/ # Writing standards & Xiaohongshu operation guidelines
+├─ schemas/ # Data structure & output schema definitions
+├─ templates/ # Reusable post templates
+└─ workflows/ # End-to-end content generation workflows
+
+## How to Use
+1. Connect this Git repository to platforms supporting GitHub Copilot Custom Skills
+2. Branch: `main`
+3. Platform automatically loads the skill by scanning path `.github/skills/`
+
+## Target Industries
+Large and medium-sized B2B enterprises, covering industrial manufacturing, biomedicine, energy & power, AI & big data, semiconductor, software services and enterprise services.
+
+## Notes
+All configurations are customizable.
+Edit files under `profiles/default` to input corporate product information, target audiences and compliance requirements for brand-tailored outputs.
